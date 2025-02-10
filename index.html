@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page1">
+  <div class="spotify-player">
+    <iframe 
+    id="spotifyPlayer" 
+    class="spotify-player"
+    src="https://open.spotify.com/embed/track/0fd77CbudLrkDEnE2lXAcW?utm_source=generator"  
+    frameBorder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"
+  ></iframe>
+  </div>
+ 
+  <div class="rotating-image clockwise" style="--delay: 4s">
+    <img src="images/chelo3.jpg" alt="Chelsea Photo 3">
+  </div>
+ 
+  <div class="rotating-image anticlockwise" style="--delay: 5s">
+    <img src="images/chelo6.jpg" alt="Chelsea Photo 6">
+  </div>
+  <div class="bubbles" id="bubbles"></div>
+  <div class="container">
+    <h1 class="birthday-name">❤️ Happy Birthday Chelsea! 👸🏽❤️</h1>
+    <div class="sparkles"></div>
+    <button class="next-btn" onclick="goToNextPage('envelope.html')">Next →</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

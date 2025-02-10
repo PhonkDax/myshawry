@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Envelope</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page2">
+  <div class="spotify-player">
+    <iframe 
+    id="spotifyPlayer" 
+    class="spotify-player"
+    src="https://open.spotify.com/embed/track/7xapw9Oy21WpfEcib2ErSA?utm_source=generator"
+    frameBorder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"
+  ></iframe>
+  </div>
+  
+  <div class="rotating-image clockwise" style="--delay: 4s">
+    <img src="images/chelo1.jpg" alt="Chelsea Photo 3">
+  </div>
+  
+  <div class="rotating-image anticlockwise" style="--delay: 5s">
+    <img src="images/chelo2.jpg" alt="Chelsea Photo 6">
+  </div>
+  <div class="bubbles" id="bubbles"></div>
+  <div class="container" style="padding: 3rem;">
+    <div class="envelope">
+      <div class="front"></div>
+      <div class="flap"></div>
+    </div>
+    <button class="open-me-btn" onclick="goToNextPage('message.html')">✨ Open Me ✨</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
